@@ -1,3 +1,6 @@
+//Juan Pablo Solis
+//22102
+//Hoja de Trabajo 4
 public class ListFactory <T>{
     public IList<T> getInstance(String type){
 

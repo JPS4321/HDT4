@@ -1,4 +1,7 @@
 import java.util.Vector;
+//Juan Pablo Solis
+//22102
+//Hoja de Trabajo 4
 
 public class StackVector<T> implements IStack<T> {
 

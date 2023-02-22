@@ -6,6 +6,9 @@
  * @author MAAG
  *
  */
+//Juan Pablo Solis
+//22102
+//Hoja de Trabajo 4
 public class Node<T> {
 	private T value;
 	private Node<T> next;

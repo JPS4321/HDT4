@@ -1,6 +1,9 @@
 import javax.sound.midi.MidiSystem;
 import java.time.temporal.Temporal;
 import java.util.*;
+//Juan Pablo Solis
+//22102
+//Hoja de Trabajo 4
 public class Controlador {
     Scanner sc = new Scanner(System.in);
     StackHandmade<String> Mystack = new StackHandmade<String>();

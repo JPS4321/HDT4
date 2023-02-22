@@ -5,6 +5,9 @@ import java.util.Stack;
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
+//Juan Pablo Solis
+//22102
+//Hoja de Trabajo 4
 public class Reader {
     public static String read(){
         String data = "";

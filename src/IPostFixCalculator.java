@@ -1,4 +1,8 @@
 import java.util.Stack;
+//Juan Pablo Solis
+//22102
+//Hoja de Trabajo 4
+//Obtenid de hoja de trabajo 2
 public interface IPostFixCalculator{
 
     boolean isOneItem(IStack  operandos);
