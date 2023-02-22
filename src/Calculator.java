@@ -1,18 +1,39 @@
+import java.net.CacheRequest;
 import java.util.ArrayList;
 
-public class Calculator implements IPostFixCalculator{
+public class Calculator implements IPostFixCalculator {
 
-    private ArrayList<Integer> Operaciones= new ArrayList<Integer>();
+    private ArrayList<Integer> Operaciones = new ArrayList<Integer>();
     StackHandmade<String> Mystack = new StackHandmade<String>();
     int Resultados = 0;
     String Datos = "";
     String[] spliting;
+     private static boolean flag = false;
+     private static Calculator Uni_calc;
 
     /**
      * @param
      * @param
      * @return
      */
+
+    private Calculator(){
+        flag = true;
+    }
+
+    public static Calculator getInstance(){
+        if(flag){
+            return  Uni_calc;
+        } else {
+            Uni_calc = new Calculator();
+            return Uni_calc;
+        }
+    }
+
+
+
+
+
     @Override
     public  boolean isOneItem(IStack operandos) {
         if (operandos.count()==1) {

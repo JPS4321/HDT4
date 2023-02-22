@@ -18,11 +18,12 @@ public class Controlador {
     public void Inciar(){
         Obtenciondatos();
         calculador();
-
     }
 
     public void calculador(){
-        Calculator calc = new Calculator();
+        Calculator calc;
+        calc = Calculator.getInstance();
+
         ArrayCopia = temporal;
 
         for(int i = ArrayCopia.size()-1; i >= 0 ;i--){

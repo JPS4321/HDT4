@@ -4,5 +4,5 @@ public class Main {
         control.Inciar();
     }
 
-    //C:\Users\Usuario\Desktop\Universidad\Tercer Semestre\Datos Compu\HDT3-V2\src\datos.txt
+    //C:\Users\Usuario\Desktop\Universidad\Tercer Semestre\Datos Compu\HDT3-V2\src
 }
